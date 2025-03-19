@@ -1,9 +1,9 @@
 package db_credentials;
 
 public class credentials {
-    private final String dbUrl = "jdbc:mysql://127.0.0.1:3306/test";
-    private final String dbUsername = "root";
-    private final String dbPassword = "Shaswat@1234";
+    private final String dbUrl = "jdbc:mysql://127.0.0.1:3306/your_database";
+    private final String dbUsername = "Your_username";
+    private final String dbPassword = "Your_password";
 
     public String getDbUrl() {
         return dbUrl;
